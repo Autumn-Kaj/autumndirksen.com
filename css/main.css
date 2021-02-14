@@ -11031,13 +11031,13 @@ p {
         justify-self: center;
   }
   .splashitems div #scroll-button {
-    margin-top: 5vh;
+    margin-top: 100px;
     -ms-grid-column-align: center;
         justify-self: center;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    width: 27vw;
+    width: 10vw;
   }
   section .gallery-grid {
     margin-top: 50px;
@@ -11128,7 +11128,6 @@ p {
   }
   footer .footer-grid div img {
     margin-top: 50px;
-    height: 40px;
     width: 40px;
     padding-left: 10px;
     padding-right: 10px;
@@ -12159,7 +12158,7 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-image: url("https://ch3301files.storage.live.com/y4m5AWqYvCAs5aQVgmezna4wiIs_EecRTKZBXhHBPh79TTj-XL9q1sRK5zCJc7navMOS3H21ZTByj-ddpt3-z6jGZPZbAFVmW6YNyLPFQbtf-mmUu1fWz0pTxvyVz4QFr8SveFPhWiLaGvZqkP5HpfZ7fa9Gd6JTJH8oqludTW2Ih1wJTXpwg-lNI-ahmQOONqR?width=4912&height=3264&cropmode=none ");
+    background-image: url("https://ch3301files.storage.live.com/y4m5AWqYvCAs5aQVgmezna4wiIs_EecRTKZBXhHBPh79TTj-XL9q1sRK5zCJc7navMOS3H21ZTByj-ddpt3-z6jGZPZbAFVmW6YNyLPFQbtf-mmUu1fWz0pTxvyVz4QFr8SveFPhWiLaGvZqkP5HpfZ7fa9Gd6JTJH8oqludTW2Ih1wJTXpwg-lNI-ahmQOONqR?width=4912&height=3264&cropmode=none");
     background-position: bottom;
     background-size: cover;
   }
@@ -12462,7 +12461,7 @@ p {
     text-decoration: underline;
   }
   .table-splash {
-    background-image: url("../images/ProductFeatures/123/gif.gif");
+    background-image: url("../images/gif.gif");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -12543,7 +12542,7 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-image: url("../images/ProductFeatures/123/ricardo-gomez-angel-UD5drKd4H6w-unsplash.jpg");
+    background-image: url("https://ch3301files.storage.live.com/y4mgen1GeC-FqlCJkC5MbarQhhA4J8npgVNuoMjHq8-AB2a3Pvwwki3dq8-yP-ULa2_8np_6Ls8h7AZyp5qe5R0E3IjG2-hYNE8w7bdTBS3GbbR6vF2JyQ8wvLR_XNdBXIlpE-OE6JL4yXb7UBZxt78rW5hGM4-KCFGjxXkqXC0q5e0E-Z6OxOdzunyHjCXR42N?width=2400&height=3199&cropmode=none");
     background-size: cover;
     height: 60vh;
   }
@@ -12632,7 +12631,7 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-image: url("../images/ProductFeatures/123/people.jpg");
+    background-image: url("https://ch3301files.storage.live.com/y4m5AWqYvCAs5aQVgmezna4wiIs_EecRTKZBXhHBPh79TTj-XL9q1sRK5zCJc7navMOS3H21ZTByj-ddpt3-z6jGZPZbAFVmW6YNyLPFQbtf-mmUu1fWz0pTxvyVz4QFr8SveFPhWiLaGvZqkP5HpfZ7fa9Gd6JTJH8oqludTW2Ih1wJTXpwg-lNI-ahmQOONqR?width=4912&height=3264&cropmode=none");
     background-position: bottom;
     background-size: cover;
   }
@@ -12851,7 +12850,7 @@ p {
 
 @media only screen and (max-width: 600px) {
   .canvas-splash {
-    background-image: url("../images/ProductFeatures/canvas/shoe.9Edit.png");
+    background-image: url("https://ch3301files.storage.live.com/y4mhoVKTm4OvEpZu-ZFEq9cEA_oNBc4tPJUY5nXInrj85yHVPFX3Zao4el3YjB-OrMcFMssM4SHJk3rSUSKE1hmPA7c37pFmnpd8p78_-3HBVcRjvD4LDQpFeYd2E88HleciqHaTZKttcIHhEAl_Iz5rclszhYYkjgo5VD-Pw91dWVqz5bdhVQuDnLDD-IVmgBZ?width=1597&height=1041&cropmode=none");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -13263,7 +13262,7 @@ p {
 
 @media only screen and (min-width: 600px) {
   .canvas-splash {
-    background-image: url("../images/ProductFeatures/canvas/shoe.9Edit.png");
+    background-image: url("https://ch3301files.storage.live.com/y4mhoVKTm4OvEpZu-ZFEq9cEA_oNBc4tPJUY5nXInrj85yHVPFX3Zao4el3YjB-OrMcFMssM4SHJk3rSUSKE1hmPA7c37pFmnpd8p78_-3HBVcRjvD4LDQpFeYd2E88HleciqHaTZKttcIHhEAl_Iz5rclszhYYkjgo5VD-Pw91dWVqz5bdhVQuDnLDD-IVmgBZ?width=1597&height=1041&cropmode=none");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -13449,7 +13448,7 @@ p {
     margin-left: 5vw;
   }
   .canvas-grid .canvas-horiz {
-    background-image: url("../images/ProductFeatures/canvas/bricks.jpg");
+    background-image: url("https://ch3301files.storage.live.com/y4mcUAfGSXbQtY0ixOI8hah91wk_sype7ZqOfp7DG6NircpNkAL9vDYgD_tv-aV3nMXT0oyAq9I_DOX4oSG9EcpWPeWvIYfMCuSXILHVA_fkkG7vKGYHgi_h7cUGqxDWxxC-SvZ-90-I3Z42J6hggPRGS6_3F_U-7NiWidsaBf--VOZVPOGUARdz23UmXAdC-Y4?width=4847&height=3230&cropmode=none");
     background-size: cover;
     width: 100vw;
     display: -ms-grid;
@@ -13501,7 +13500,7 @@ p {
     height: 80vh;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    background-image: url("../images/ProductFeatures/canvas/ShoesWithMarkers.276.jpg");
+    background-image: url("https://ch3301files.storage.live.com/y4m_puGKTbGAkMOZikPKDyCMSQQmCfzL7LAnQNMEAGbLHLJlKD_VrPjk3xTqez4t9ri1KJh5nnyZboob2hAXfalGgV_odbcbeB0rvPr9U8ej2M1Mt83NcugISNF6sqJxxPqE2HlaXpsOVNQaOYWa7vAaZOHYpChdFzpta7qxobZGFGv4rYbA7LDSrrD6TLUQ4Uk?width=1920&height=1080&cropmode=none");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13665,7 +13664,7 @@ p {
 
 @media only screen and (max-width: 500px) {
   .mus-splash {
-    background-image: url("../images/ProductFeatures/mus/musdark.png");
+    background-image: url("https://ch3301files.storage.live.com/y4mNzCA1nb0tKDnEiJIv4dQZ3ZmeBc7qekRYcHYQYbiGz0GXqMnxpMCqWU3I34vVpjRCulv3mAIhb4rCpR016ERSKYLmzcYfIVgqYgD3ZVLRZie6a8Fc083e7rz9CY4qUM2u2zODiWWjsaYLinPvYZIAUtu5PCQLWKxoKT1cMcOfm69ltln2l1BhA6beammMQzb?width=1920&height=1080&cropmode=none");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -13778,7 +13777,7 @@ p {
 
 @media only screen and (min-width: 500px) {
   .mus-splash {
-    background-image: url("../images/ProductFeatures/mus/musdark.png");
+    background-image: url("https://ch3301files.storage.live.com/y4mNzCA1nb0tKDnEiJIv4dQZ3ZmeBc7qekRYcHYQYbiGz0GXqMnxpMCqWU3I34vVpjRCulv3mAIhb4rCpR016ERSKYLmzcYfIVgqYgD3ZVLRZie6a8Fc083e7rz9CY4qUM2u2zODiWWjsaYLinPvYZIAUtu5PCQLWKxoKT1cMcOfm69ltln2l1BhA6beammMQzb?width=1920&height=1080&cropmode=none");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -14806,7 +14805,6 @@ p {
   }
   .socials img {
     height: 50px;
-    width: 50px;
     padding-top: 25px;
     padding-right: 30px;
     -webkit-transition: .4s all ease;
@@ -14814,7 +14812,6 @@ p {
   }
   .socials img:hover {
     height: 51px;
-    width: 51px;
     opacity: 70%;
   }
   .splash {
@@ -14849,13 +14846,13 @@ p {
         align-content: center;
   }
   .splashitems div #scroll-button {
-    margin-top: 200px;
+    margin-top: 210px;
     -ms-grid-column-align: center;
         justify-self: center;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    width: 180px;
+    width: 4vw;
     -webkit-transition-property: width;
     transition-property: width;
     -webkit-transition-duration: 0.6s;
@@ -14863,7 +14860,7 @@ p {
   }
   .splashitems div #scroll-button:hover {
     cursor: pointer;
-    width: 190px;
+    width: 5vw;
   }
   section .gallery-grid {
     margin-top: 50px;
@@ -14988,7 +14985,6 @@ p {
   }
   footer .footer-grid div img {
     margin-top: 50px;
-    height: 40px;
     width: 40px;
     padding-left: 10px;
     padding-right: 10px;
@@ -14996,7 +14992,6 @@ p {
     transition: .4s all ease;
   }
   footer .footer-grid div img:hover {
-    height: 41px;
     width: 41px;
     opacity: 70%;
   }
