@@ -12507,16 +12507,21 @@ p {
   }
   .table-grid1 #traditional-dining img {
     width: 50vw;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
   .table-grid1 #traditional-dining div {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding: 80px;
-    margin: 100px;
-    max-width: 40vw;
+    width: 40vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -12524,6 +12529,9 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -ms-flex-item-align: center;
+        align-self: center;
+    justify-self: center;
   }
   .table-grid1 #traditional-dining div h4 {
     padding-bottom: 25px;
@@ -14868,10 +14876,9 @@ p {
     display: -ms-grid;
     display: grid;
     grid-auto-flow: column;
-    -ms-grid-columns: 3fr 2fr;
-        grid-template-columns: 3fr 2fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     width: 100vw;
-    justify-items: stretch;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -14882,8 +14889,6 @@ p {
     -ms-flex-item-align: left;
         -ms-grid-row-align: left;
         align-self: left;
-    padding-top: 0px;
-    padding-bottom: 0px;
     margin-left: 0px;
   }
   section .right {
@@ -14916,10 +14921,9 @@ p {
     display: -ms-grid;
     display: grid;
     grid-auto-flow: column;
-    -ms-grid-columns: 2fr 3fr;
-        grid-template-columns: 2fr 3fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     width: 100vw;
-    justify-items: stretch;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;

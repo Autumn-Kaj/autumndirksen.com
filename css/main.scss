@@ -445,17 +445,14 @@ section{
         margin-top:50px;
         display: grid;
         grid-auto-flow: column;
-        grid-template-columns: 3fr 2fr;
+        grid-template-columns: 1fr 1fr;
         width: 100vw;
-        justify-items: stretch;
         align-items: center;
         background-color: #F9F9FA;
         }
             .left img{
                 width:60vw;
                 align-self:left;
-                padding-top:0px;
-                padding-bottom:0px;
                 margin-left:0px;
             }
             .right{
@@ -491,9 +488,8 @@ section{
     .about-grid{
         display: grid;
         grid-auto-flow: column;
-        grid-template-columns: 2fr 3fr;
+        grid-template-columns: 1fr 1fr;
         width: 100vw;
-        justify-items: stretch;
         align-items: center;
         background-color: #F9F9FA;
         margin-top: 50px;
