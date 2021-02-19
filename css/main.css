@@ -12496,16 +12496,17 @@ p {
     width: 100vw;
   }
   .table-grid1 #traditional-dining {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     width: 100vw;
-    -ms-flex-line-pack: justify;
-        align-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
     background-color: white;
   }
   .table-grid1 #traditional-dining img {
-    width: 900px;
+    width: 50vw;
   }
   .table-grid1 #traditional-dining div {
     border-top: 1px solid black;
