@@ -11867,6 +11867,33 @@ p {
     height: 85vh;
     padding: 0;
   }
+  .album-grid div a div {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    height: 85vh;
+    padding: 0;
+  }
+  .album-grid div a #rightarrow {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    height: 20vh;
+    padding: 8vh;
+  }
+  .album-grid div a #leftarrow {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    height: 20vh;
+    padding: 8vh;
+  }
 }
 
 .dark-large-title {
@@ -14963,6 +14990,169 @@ p {
 
 .art-grid .grid-item3:hover {
   overflow: visible;
+}
+
+@media only screen and (max-width: 500px) {
+  #hideme {
+    display: none;
+  }
+  .washington-splash {
+    background-image: url("https://dm2305files.storage.live.com/y4mMn9tcOdaINyleYR6zWQN-cswyq7s7IE-UWkJXsrIU57KzyuPqq0JXofJdGGNZNfiAGLYM8BKJrvTPWNrcuWcUFk2JTFwUCHGh_nZYEQ-F-mzMQbmdSUFHx3z-v7E0hsf8n0NF-E40oHExLSKCIAXGJgtZgtATM_1gH7L3mnaZRidC2LSLT-ZmETwyGAuJg26?width=4001&height=2250&cropmode=none");
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section div .product-grid-wa {
+    display: -ms-grid;
+    display: grid;
+    width: 100vw;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #F9F9FA;
+  }
+  section div .product-grid-wa .washington-pics {
+    display: -ms-grid;
+    display: grid;
+    width: 100vw;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+  }
+  section div .product-grid-wa .washington-pics .washington-images {
+    padding-bottom: 8vw;
+    width: 100vw;
+  }
+  section div .product-grid-wa .washington-pics .washington-site {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    width: 100vw;
+    margin-bottom: 8vw;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    background-color: white;
+  }
+  section div .product-grid-wa .washington-pics .washington-site .scrolldiv {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  section div .product-grid-wa .washington-pics .washington-site .scrolldiv #markup {
+    width: 80vw;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  section div .product-grid-wa .washington-pics .washington-site .stickydiv {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    width: 100vw;
+  }
+  section div .product-grid-wa .washington-pics .washington-site .stickydiv #sticky {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .washington-splash {
+    background-image: url("https://dm2305files.storage.live.com/y4mMn9tcOdaINyleYR6zWQN-cswyq7s7IE-UWkJXsrIU57KzyuPqq0JXofJdGGNZNfiAGLYM8BKJrvTPWNrcuWcUFk2JTFwUCHGh_nZYEQ-F-mzMQbmdSUFHx3z-v7E0hsf8n0NF-E40oHExLSKCIAXGJgtZgtATM_1gH7L3mnaZRidC2LSLT-ZmETwyGAuJg26?width=4001&height=2250&cropmode=none");
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section div .product-grid-wa {
+    display: -ms-grid;
+    display: grid;
+    width: 100vw;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #F9F9FA;
+  }
+  section div .product-grid-wa .washington-pics {
+    display: -ms-grid;
+    display: grid;
+    width: 60vw;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-grid-row-align: center;
+        align-self: center;
+  }
+  section div .product-grid-wa .washington-pics .washington-images {
+    padding-bottom: 40px;
+    width: 60vw;
+  }
+  section div .product-grid-wa .washington-pics .washington-site {
+    display: -ms-grid;
+    display: grid;
+    width: 60vw;
+    height: 60vw;
+    margin-bottom: 40px;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    background-color: white;
+  }
+  section div .product-grid-wa .washington-pics .washington-site .scrolldiv {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  section div .product-grid-wa .washington-pics .washington-site .scrolldiv #markup {
+    width: 30vw;
+  }
+  section div .product-grid-wa .washington-pics .washington-site .stickydiv {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    width: 30vw;
+  }
+  section div .product-grid-wa .washington-pics .washington-site .stickydiv #sticky {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    width: 30vw;
+  }
 }
 
 @media only screen and (min-width: 500px) {
