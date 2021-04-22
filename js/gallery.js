@@ -29,4 +29,5 @@ $(document).ready(function(){
     ScrollReveal().reveal('#two', {duration: 1000, delay:1000, distance: '100px', origin: 'bottom', });
     ScrollReveal().reveal('#three', {duration: 1000, delay:1500, distance: '100px', origin: 'bottom', });
     ScrollReveal().reveal('#four', {duration: 1000, delay:2000, distance: '100px', origin: 'bottom', });
+    ScrollReveal().reveal('#five', {duration: 1000, delay:2500, distance: '100px', origin: 'bottom', });
 });
