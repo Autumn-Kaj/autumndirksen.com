@@ -11559,10 +11559,13 @@ p {
 
 @media only screen and (max-width: 500px) {
   .contact {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     -ms-flex-line-pack: center;
         align-content: center;
     width: 100vw;
@@ -11576,9 +11579,7 @@ p {
   .contact .right-contact {
     width: 100vw;
     background: white;
-    -webkit-box-shadow: 5px 10px 40px #2c2c2c;
-            box-shadow: 5px 10px 40px #2c2c2c;
-    padding: 10px;
+    padding: 8vh 10px 10px 10px;
   }
   .contact h5 {
     font-family: 'Work Sans', sans-serif;
@@ -11781,6 +11782,8 @@ p {
         -ms-grid-row-align: center;
         align-self: center;
     height: 100%;
+    -webkit-box-shadow: 5px 10px 40px #2c2c2c;
+            box-shadow: 5px 10px 40px #2c2c2c;
   }
 }
 
@@ -12015,345 +12018,43 @@ p {
     font-size: 10vw;
     color: white;
   }
-  .table-grid1 {
+  .tabletitle {
     display: -ms-grid;
     display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    background-image: url("https://dm2305files.storage.live.com/y4mEQWI48EcpAbPdixbaen1STeNwDAzOXJyIe6GTVC_KtGOlgh-rVXce7ky02ueKKbgBP7dTHUA1B6bnleu0Zs2fqMXceilcw8mHs3f0zX98jJgB42b9PvGpPxmdN8H42vCCO3b8wCys0Vi9iv3cjQ85JNEq-UAnU0nqBudm4oOFSdyKKQQh5RO73NBxGR-ZqS0?width=3199&height=2400&cropmode=none");
     width: 100vw;
-    margin: 0;
-    overflow: hidden;
-    background-color: #F9F9FA;
+    margin-top: 50px;
   }
-  .table-grid1 #experimental {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100vw;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .table-grid1 #experimental img {
-    width: 100vw;
+  .tabletitle img {
+    padding: 20px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
     -ms-grid-column-align: center;
         justify-self: center;
-  }
-  .table-grid1 #traditional-dining {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100vw;
-    -ms-flex-line-pack: justify;
-        align-content: space-between;
-    background-color: white;
-    margin-top: 8vh;
-  }
-  .table-grid1 #traditional-dining img {
-    width: 50vh;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    margin-bottom: 8vh;
-  }
-  .table-grid1 #traditional-dining div {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    max-width: 95vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 10px;
-  }
-  .table-grid1 #traditional-dining div h4 {
-    padding: 15px;
-  }
-  .table-grid1 #traditional-dining div p {
-    font-size: 18px;
-    padding: 15px;
-  }
-  .table-grid1 #primal-perception {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    margin-top: 8vh;
-    margin-bottom: 8vh;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-image: url("https://ch3301files.storage.live.com/y4mPtC1DI8RzebwQ-nTm_aArEzVCCOXNhUXvOBqsX0KPTfZmFKcBemTxGem8m2brxbH1plTEg-mbuj_XZZwBNDxdXSjSxFgtw0zVGxUhHvsYraKZeCy-tW8MD2_cDHNMgUUJQgb47Rkrm_cLHrM05jlm61M1c0fqLcETU7kQ0Bk17owM11NElVCY-eBAyv_v7AL?width=2400&height=3199&cropmode=none");
-    background-size: cover;
-    width: 100vw;
-    height: 60vh;
-  }
-  .table-grid1 #primal-perception div {
-    -ms-flex-item-align: center;
-        align-self: center;
-    justify-self: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    background-color: white;
     width: 95vw;
-    height: 55vh;
-    padding-top: 2.5vw;
-    padding-bottom: 2.5vw;
-    padding: 10px;
-    -webkit-box-shadow: 10px 20px 40px black;
-            box-shadow: 10px 20px 40px black;
   }
-  .table-grid1 #primal-perception div h4 {
-    padding-bottom: 15px;
-    width: 80vw;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  .table-grid1 #primal-perception div p {
-    -ms-grid-column-align: center;
-        justify-self: center;
-    font-size: 18px;
-    width: 80vw;
-    justify-self: center;
-  }
-  .table-grid1 #blobjects {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100vw;
-    margin-bottom: 8vh;
-    background-color: white;
-    -webkit-box-align: space-around;
-        -ms-flex-align: space-around;
-            align-items: space-around;
-  }
-  .table-grid1 #blobjects div {
-    width: 70vw;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-  }
-  .table-grid1 #blobjects div p {
-    font-size: 18px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  .table-grid1 #blobjects img {
-    padding-top: 8vh;
-    width: 90vw;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  .table-grid1 #what-if {
-    height: 90vh;
-    width: 100vw;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    margin-bottom: 8vh;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-image: url("https://ch3301files.storage.live.com/y4mniAhzkU2zeSv-Tge24TnRTJtJ37RAslb5JU7xiU56kM10_X7FiRcwk1Be_bNPPioD_-XzZXaakHEiiArn-LBjgzz-pvGYyZCOOJ4tVa9f_BsDap9k7bI__kEvgXKDb4176Q3TkPc2ubdhQArvEwUtRcOHTfpXYYYQDpsAjCGpytBFceDkM8y6wVElLRJvsrP?width=4912&height=3264&cropmode=none");
-    background-position: bottom;
-    background-size: cover;
-  }
-  .table-grid1 #what-if div {
-    background-color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 30px;
-    -webkit-box-shadow: 10px 20px 40px black;
-            box-shadow: 10px 20px 40px black;
-  }
-  .table-grid1 #what-if div h4 {
-    text-align: center;
-    padding-bottom: 15px;
-  }
-  .table-grid1 #what-if div p {
-    text-align: center;
-    font-size: 18px;
-  }
-  .table-grid1 .title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .table-grid1 .title img {
-    width: 100vw;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  .table-grid1 #table-sketches {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    width: 100vw;
-    margin-left: 0;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 8vh;
-    margin-bottom: 8vh;
-  }
-  .table-grid1 #table-sketches img {
-    width: 100vw;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  .table-grid1 #table-image1 {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    margin-top: 8vh;
-    margin-bottom: 8vh;
-  }
-  .table-grid1 #table-image1 img {
-    width: 60vw;
-    padding: 15px;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-  .table-grid1 #table-image2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 100vw;
-    margin-bottom: 8vh;
-  }
-  .table-grid1 #table-image2 div {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 100vw;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    background-color: white;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-  }
-  .table-grid1 #table-image2 div h4 {
-    -ms-grid-column-align: center;
-        justify-self: center;
-    padding: 15px;
-  }
-  .table-grid1 #table-image2 div p {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    font-size: 18px;
-    padding: 15px;
-  }
-  .table-grid1 #main-products {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100vw;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .table-grid1 #main-products img {
-    width: 100vw;
-  }
-  .table-grid1 #final-table {
-    width: 100vw;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+  iframe {
+    display: none;
+    visibility: hidden;
   }
   .back {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 25px;
+    margin-bottom: 50px;
   }
   .back .btn {
     border: 1px solid black;
-    width: 400px;
+    width: 80vw;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -12381,9 +12082,80 @@ p {
     -webkit-box-shadow: 10px 10px 20px black;
             box-shadow: 10px 10px 20px black;
   }
+  .tablebutton {
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 4px;
+    background-color: #252525;
+    -webkit-box-shadow: 1px 1px 2px grey;
+            box-shadow: 1px 1px 2px grey;
+    opacity: 100%;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+    padding: 10px;
+    margin-bottom: 25px;
+  }
+  .tablebutton a {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+    text-decoration: none;
+    color: white;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .tablebutton a:hover {
+    text-decoration: none;
+  }
+  .tablebutton:hover {
+    -webkit-box-shadow: 10px 10px 20px black;
+            box-shadow: 10px 10px 20px black;
+  }
+  .table-tri {
+    margin-top: 15px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    width: 100vw;
+  }
+  .table-tri img {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    width: 90vw;
+    padding: 10px;
+  }
 }
 
 @media only screen and (min-width: 500px) {
+  .hidden-xs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
   .table-header-grid {
     display: -ms-grid;
     display: grid;
@@ -12510,393 +12282,90 @@ p {
     display: -ms-flexbox;
     display: flex;
   }
-  .table-grid1 {
+  .tabletitle {
     display: -ms-grid;
     display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    background-image: url("https://dm2305files.storage.live.com/y4mEQWI48EcpAbPdixbaen1STeNwDAzOXJyIe6GTVC_KtGOlgh-rVXce7ky02ueKKbgBP7dTHUA1B6bnleu0Zs2fqMXceilcw8mHs3f0zX98jJgB42b9PvGpPxmdN8H42vCCO3b8wCys0Vi9iv3cjQ85JNEq-UAnU0nqBudm4oOFSdyKKQQh5RO73NBxGR-ZqS0?width=3199&height=2400&cropmode=none");
     width: 100vw;
-    margin: 0;
-    overflow: hidden;
-    background-color: #F9F9FA;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    margin-top: 100px;
   }
-  .table-grid1 #experimental {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    width: 100vw;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .table-grid1 #experimental img {
-    width: 80vw;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  .table-grid1 #traditional-dining {
-    -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    width: 80vw;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    background-color: white;
-    margin-top: 80px;
-  }
-  .table-grid1 #traditional-dining img {
-    width: 40vw;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  .table-grid1 #traditional-dining div {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    width: 30vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-item-align: center;
-        align-self: center;
-    justify-self: center;
-  }
-  .table-grid1 #traditional-dining div h4 {
-    padding-bottom: 25px;
-  }
-  .table-grid1 #traditional-dining div p {
-    font-size: 18px;
-  }
-  .table-grid1 #primal-perception {
-    -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-image: url("https://ch3301files.storage.live.com/y4mPtC1DI8RzebwQ-nTm_aArEzVCCOXNhUXvOBqsX0KPTfZmFKcBemTxGem8m2brxbH1plTEg-mbuj_XZZwBNDxdXSjSxFgtw0zVGxUhHvsYraKZeCy-tW8MD2_cDHNMgUUJQgb47Rkrm_cLHrM05jlm61M1c0fqLcETU7kQ0Bk17owM11NElVCY-eBAyv_v7AL?width=2400&height=3199&cropmode=none");
-    background-size: cover;
-    width: 80vw;
-  }
-  .table-grid1 #primal-perception div {
-    -ms-flex-item-align: center;
-        align-self: center;
-    justify-self: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    background-color: white;
-    width: 1000px;
-    padding: 80px;
-    margin: 80px;
-    -webkit-box-shadow: 10px 20px 40px black;
-            box-shadow: 10px 20px 40px black;
-  }
-  .table-grid1 #primal-perception div h4 {
-    padding-bottom: 15px;
-  }
-  .table-grid1 #primal-perception div p {
-    max-width: 900px;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    font-size: 18px;
-  }
-  .table-grid1 #blobjects {
-    -ms-flex-item-align: center;
-        align-self: center;
-    justify-self: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    width: 80vw;
-    margin-bottom: 80px;
-    background-color: white;
-    -webkit-box-align: space-around;
-        -ms-flex-align: space-around;
-            align-items: space-around;
-  }
-  .table-grid1 #blobjects div {
-    width: 30vw;
-    margin-left: 100px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-left: 1px solid black;
-  }
-  .table-grid1 #blobjects div p {
-    font-size: 18px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  .table-grid1 #blobjects img {
-    width: 40vw;
-    padding: 100px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  .table-grid1 #what-if {
-    -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    width: 80vw;
-    height: 800px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    margin-bottom: 80px;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-image: url("https://ch3301files.storage.live.com/y4mniAhzkU2zeSv-Tge24TnRTJtJ37RAslb5JU7xiU56kM10_X7FiRcwk1Be_bNPPioD_-XzZXaakHEiiArn-LBjgzz-pvGYyZCOOJ4tVa9f_BsDap9k7bI__kEvgXKDb4176Q3TkPc2ubdhQArvEwUtRcOHTfpXYYYQDpsAjCGpytBFceDkM8y6wVElLRJvsrP?width=4912&height=3264&cropmode=none");
-    background-position: bottom;
-    background-size: cover;
-  }
-  .table-grid1 #what-if div {
-    background-color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-left: 10vw;
-    margin-right: 10vw;
+  .tabletitle img {
     padding: 40px;
-    -webkit-box-shadow: 10px 20px 40px black;
-            box-shadow: 10px 20px 40px black;
-  }
-  .table-grid1 #what-if div h4 {
-    text-align: center;
-    padding-bottom: 15px;
-  }
-  .table-grid1 #what-if div p {
-    text-align: center;
-    font-size: 18px;
-  }
-  .table-grid1 .title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
-    justify-self: center;
-  }
-  .table-grid1 .title img {
-    width: 80vw;
     -ms-grid-column-align: center;
         justify-self: center;
+    height: 15vh;
   }
-  .table-grid1 #table-sketches {
+  .table-tri {
+    margin-top: 30px;
+    display: -ms-grid;
+    display: grid;
     -ms-grid-row-align: center;
         align-self: center;
     -ms-grid-column-align: center;
         justify-self: center;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     width: 80vw;
-    margin-left: 0;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
   }
-  .table-grid1 #table-sketches img {
-    width: 40vw;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  .table-grid1 #table-sketches2 {
-    -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    width: 100%;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 80px;
-    max-width: 80vw;
-    margin-top: 40px;
-  }
-  .table-grid1 #table-sketches2 #img1 {
-    margin-left: 100px;
-    padding: 50px;
-    width: 40vw;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  .table-grid1 #table-sketches2 #img2 {
-    padding: 50px;
-    width: 20vw;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    margin-right: 100px;
-  }
-  .table-grid1 #table-image1 {
+  .table-tri img {
     -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
-    justify-self: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    max-width: 80vw;
-    margin-top: 80px;
-    margin-bottom: 80px;
-  }
-  .table-grid1 #table-image1 img {
-    width: 25vw;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    width: 26.67vw;
     padding: 20px;
   }
-  .table-grid1 #table-image2 {
-    -ms-flex-item-align: center;
+  .tablebutton {
+    -ms-grid-row-align: center;
         align-self: center;
-    justify-self: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 80vw;
-    margin-bottom: 80px;
-  }
-  .table-grid1 #table-image2 div {
-    margin-top: 80px;
-    margin-bottom: 80px;
-    width: 1500px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    background-color: white;
-  }
-  .table-grid1 #table-image2 div h4 {
     -ms-grid-column-align: center;
         justify-self: center;
-    padding-top: 100px;
-    padding-bottom: 15px;
-    padding-left: 300px;
-    padding-right: 300px;
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 4px;
+    background-color: #252525;
+    -webkit-box-shadow: 1px 1px 2px grey;
+            box-shadow: 1px 1px 2px grey;
+    opacity: 100%;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+    padding: 10px;
+    margin-bottom: 50px;
   }
-  .table-grid1 #table-image2 div p {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+  .tablebutton a {
+    padding: 10px;
     font-size: 18px;
-    padding-bottom: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
-  }
-  .table-grid1 #main-products {
-    -ms-flex-item-align: center;
-        align-self: center;
-    justify-self: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 80vw;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .table-grid1 #main-products img {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-  .table-grid1 #final-table {
-    width: 80vw;
+    font-family: 'Noto Serif', serif;
+    text-decoration: none;
+    color: white;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
     -ms-grid-column-align: center;
         justify-self: center;
-    margin-top: 80px;
+  }
+  .tablebutton a:hover {
+    text-decoration: none;
+  }
+  .tablebutton:hover {
+    -webkit-box-shadow: 10px 10px 20px black;
+            box-shadow: 10px 10px 20px black;
   }
   .back {
     display: -ms-grid;
@@ -15154,104 +14623,626 @@ p {
   }
 }
 
-#airbnb-splash {
-  width: 100%;
-  height: 80%;
-  margin: 0;
-  position: relative;
-  background: #ff7d7d;
+@media only screen and (max-width: 500px) {
+  .hidden-xs {
+    display: none !important;
+  }
+  body {
+    width: 100%;
+    overflow-x: clip;
+  }
+  header {
+    max-width: 100vw;
+    overflow-x: clip;
+  }
+  #airbnbhamburger {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 100vw;
+    -ms-grid-row-align: center;
+        align-self: center;
+    position: absolute;
+    top: 20px;
+  }
+  #airbnbhamburger img {
+    height: 3vh;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .socials img {
+    display: none;
+    visibility: hidden;
+  }
+  .container {
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .dropdown-content {
+    display: none;
+    visibility: hidden;
+  }
+  #airbnb-splash .container .header-grid {
+    display: none;
+    position: absolute;
+    top: 0px;
+    height: 100vh;
+    z-index: 96;
+    width: 100%;
+  }
+  #airbnb-splash .container .header-grid nav {
+    -ms-flex-item-align: center;
+        align-self: center;
+    justify-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #airbnb-splash .container .header-grid nav ul {
+    -ms-grid-row-align: center;
+        align-self: center;
+    position: absolute;
+    top: 0px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 0px;
+    background-color: #111111;
+    opacity: 90%;
+    row-gap: 0px;
+    width: 100vw;
+    list-style-type: none;
+    height: 90vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+  }
+  #airbnb-splash .container .header-grid nav ul li {
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 22.5vh;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    opacity: 100%;
+    border: 1px solid #82c7cc;
+  }
+  #airbnb-splash .container .header-grid nav ul li a {
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    text-align: center;
+    text-justify: center;
+    font-size: 10vw;
+    color: white;
+  }
+  #airbnb-splash .container .header-grid nav ul li #airbnbhamburger-close {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    padding-top: 30px;
+  }
+  #airbnb-splash .container .header-grid nav ul li #airbnbhamburger-close img {
+    height: 2vh;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  #airbnbarrow {
+    display: -ms-grid;
+    display: grid;
+    overflow: clip;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+    background-image: url("https://dm2305files.storage.live.com/y4m_gyKS5yLdRcQS_tWqBTEN72bb1USNsNun2qH4IbMZzv_SAafWJ8sjos-0DzTARjCB74z7r3OvSVnj5wFLOeyAyk3j0iFeltVhFfzfe62BMNjbAxJ98MUmGFyn2zUvAHGgWF8DFuGr35dWxTqAXhiWN4xSQHfuwEVc4B6DpU22MqSVD-E0tA5LlrVbfqmWZhA?width=500&height=1616&cropmode=none");
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #airbnbarrow div {
+    width: 100%;
+    padding: 0px;
+  }
+  #airbnbarrow #scroll-button {
+    margin-top: 100px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 10vw;
+    margin-bottom: 50px;
+    padding: 0px;
+  }
+  #airbnbsplashitem {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .button {
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 4px;
+    background-color: #FF3366;
+    -webkit-box-shadow: 1px 1px 2px grey;
+            box-shadow: 1px 1px 2px grey;
+    opacity: 100%;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  .button a {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+    text-decoration: none;
+    color: white;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .button a:hover {
+    text-decoration: none;
+  }
+  .button:hover {
+    -webkit-box-shadow: 10px 10px 20px black;
+            box-shadow: 10px 10px 20px black;
+  }
+  .airbnb-grid {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #F9F9FA;
+  }
+  .airbnb-grid .airbnb1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 100vw;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    margin-top: 15px;
+    background-color: white;
+  }
+  .airbnb-grid .airbnb1 iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 90vh;
+  }
+  .airbnb-grid .airbnb1 img {
+    width: 100%;
+    padding: 0px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .airbnb-grid .airbnb1 .textbox {
+    width: 95vw;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    padding: 40px;
+  }
+  .airbnb-grid .airbnb1 .textbox h4 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    text-align: left;
+    width: 100%;
+  }
+  .airbnb-grid .airbnb1 .textbox p {
+    max-height: 60vw;
+    overflow-y: auto;
+    padding: 10px 15px 0px 15px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    border-left: 1px solid black;
+    font-size: 18px;
+  }
+  .airbnb-grid .airbnb2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 100vw;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    background-color: white;
+    margin-top: 15px;
+  }
+  .airbnb-grid .airbnb2 iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    height: 90vh;
+  }
+  .airbnb-grid .airbnb2 img {
+    width: 100vw;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .airbnb-grid .airbnb2 .textbox2 {
+    width: 100vw;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding: 40px;
+    overflow: hidden;
+  }
+  .airbnb-grid .airbnb2 .textbox2 h4 {
+    width: 100%;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .airbnb-grid .airbnb2 .textbox2 p {
+    width: 100%;
+    max-height: 40vw;
+    overflow-y: auto;
+    padding: 10px 15px 0px 15px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    border-left: 1px solid black;
+    font-size: 18px;
+  }
+  .airbnb-grid .airbnbtitle {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    background: #FF3366;
+    width: 100vw;
+    margin-top: 50px;
+  }
+  .airbnb-grid .airbnbtitle img {
+    padding: 40px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    width: 80vw;
+  }
 }
 
-#airbnb-splash nav {
-  padding-bottom: 0px;
-}
-
-.airbnb-grid {
-  display: -ms-grid;
-  display: grid;
-  width: 100%;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #F9F9FA;
-}
-
-.airbnb-grid .airbnb1 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  width: 80vw;
-  -ms-grid-row-align: center;
-      align-self: center;
-  -ms-grid-column-align: center;
-      justify-self: center;
-}
-
-.airbnb-grid .airbnb1 img {
-  width: 100%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  -ms-grid-column-align: center;
-      justify-self: center;
-}
-
-.airbnb-grid .airbnb2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  width: 80vw;
-  -ms-grid-row-align: center;
-      align-self: center;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  background-color: white;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  height: 60vh;
-}
-
-.airbnb-grid .airbnb2 img {
-  height: 60vh;
-}
-
-.airbnb-grid .airbnb2 div {
-  height: 100%;
-  -ms-grid-row-align: center;
-      align-self: center;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  padding: 100px 100px 100px 0px;
-}
-
-.airbnb-grid .airbnb2 div h4 {
-  width: 100%;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.airbnb-grid .airbnb2 div p {
-  width: 100%;
-  max-height: 300px;
-  padding: 10px 15px 0px 15px;
-  -ms-grid-column-align: center;
-      justify-self: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  border-left: 1px solid black;
-  font-size: 18px;
+@media only screen and (min-width: 500px) {
+  #airbnbhamburger {
+    display: none;
+    visibility: hidden;
+  }
+  #airbnbhamburger-close {
+    display: none;
+    visibility: hidden;
+  }
+  #airbnb-splash {
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    position: relative;
+    background: #ff7d7d;
+  }
+  #airbnb-splash nav {
+    padding-bottom: 0px;
+  }
+  #airbnbarrow {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 100vw;
+    position: absolute;
+    top: 75vh;
+    left: 0px;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  #airbnbarrow #scroll-button {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    width: 4vw;
+    -webkit-transition-property: width;
+    transition-property: width;
+    -webkit-transition-duration: 0.6s;
+            transition-duration: 0.6s;
+  }
+  #airbnbarrow #scroll-button:hover {
+    cursor: pointer;
+    width: 5vw;
+  }
+  #airbnbsplashitem {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 100%;
+    background: #ff7d7d;
+  }
+  .button {
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    text-align: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 4px;
+    background-color: #FF3366;
+    -webkit-box-shadow: 1px 1px 2px grey;
+            box-shadow: 1px 1px 2px grey;
+    opacity: 100%;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  .button a {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+    text-decoration: none;
+    color: white;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .button a:hover {
+    text-decoration: none;
+  }
+  .button:hover {
+    -webkit-box-shadow: 10px 10px 20px black;
+            box-shadow: 10px 10px 20px black;
+  }
+  .airbnb-grid {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #F9F9FA;
+  }
+  .airbnb-grid .airbnb1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    width: 80vw;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    margin-top: 30px;
+    background-color: white;
+  }
+  .airbnb-grid .airbnb1 iframe {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    width: 100%;
+    height: 900px;
+  }
+  .airbnb-grid .airbnb1 img {
+    width: 100%;
+    padding: 0px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .airbnb-grid .airbnb1 .textbox {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+  .airbnb-grid .airbnb1 .textbox h4 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    text-align: center;
+    padding: 30px;
+    width: 65vw;
+  }
+  .airbnb-grid .airbnb1 .textbox p {
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-size: 18px;
+    width: 50vw;
+    text-align: center;
+  }
+  .airbnb-grid .airbnb2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    background-color: white;
+    margin-top: 30px;
+  }
+  .airbnb-grid .airbnb2 iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 40vw;
+    height: 800px;
+  }
+  .airbnb-grid .airbnb2 img {
+    width: 40vw;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .airbnb-grid .airbnb2 .textbox2 {
+    width: 40vw;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding: 80px;
+    overflow: hidden;
+  }
+  .airbnb-grid .airbnb2 .textbox2 h4 {
+    width: 100%;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .airbnb-grid .airbnb2 .textbox2 p {
+    width: 100%;
+    max-height: 20vw;
+    overflow-y: auto;
+    padding: 10px 15px 0px 15px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    border-left: 1px solid black;
+    font-size: 18px;
+  }
+  .airbnb-grid .airbnbtitle {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    background: #FF3366;
+    width: 80vw;
+    height: 150px;
+    margin-top: 100px;
+  }
+  .airbnb-grid .airbnbtitle img {
+    height: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
 }
 
 @media only screen and (min-width: 500px) {
