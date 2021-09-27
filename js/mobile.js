@@ -11,7 +11,19 @@ $(document).ready(function(){
         $('#hamburger').css("visibility","visible");
 
     });
+    /*Airbnb*/
+    $('#airbnbhamburger').click(function(){
+        $('.header-grid').fadeIn();
+        $('.header-grid').animate({height: '90vh', opacity: '100'}, "slow");
+        $('#airbnbhamburger').css("visibility","hidden");
+        $('.dropdown-content').empty();
+    });
+    $('#airbnbhamburger-close').click(function(){
+        $('.header-grid').animate({height: '0', opacity: '0'}, "slow",function(){
+            $('.header-grid').fadeOut();})
+        $('#airbnbhamburger').css("visibility","visible");
 
+    });
     /*123*/
     $('#hamburger').click(function(){
         $('.table-header-grid').fadeIn();

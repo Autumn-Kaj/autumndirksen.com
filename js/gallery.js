@@ -10,7 +10,7 @@ $(document).ready(function(){
     $("#two").mouseover(function(){
         $("#two").css({"height": "85.5vh"});
     });
-    $("#tw0").mouseout(function(){
+    $("#two").mouseout(function(){
         $("#two").css({"height": "85vh"});
     });
     $("#three").mouseover(function(){
@@ -25,9 +25,10 @@ $(document).ready(function(){
     $("#four").mouseout(function(){
         $("#four").css({"height": "85vh"});
     });
-    ScrollReveal().reveal('#one', {duration: 1000, delay:500, distance: '100px', origin: 'bottom', });
-    ScrollReveal().reveal('#two', {duration: 1000, delay:1000, distance: '100px', origin: 'bottom', });
-    ScrollReveal().reveal('#three', {duration: 1000, delay:1500, distance: '100px', origin: 'bottom', });
-    ScrollReveal().reveal('#four', {duration: 1000, delay:2000, distance: '100px', origin: 'bottom', });
-    ScrollReveal().reveal('#five', {duration: 1000, delay:2500, distance: '100px', origin: 'bottom', });
+    ScrollReveal().reveal('#one', {duration: 1000, distance: '100px', origin: 'bottom', });
+    ScrollReveal().reveal('#two', {duration: 1000, distance: '100px', origin: 'bottom', });
+    ScrollReveal().reveal('#three', {duration: 1000, distance: '100px', origin: 'bottom', });
+    ScrollReveal().reveal('#four', {duration: 1000, distance: '100px', origin: 'bottom', });
+    ScrollReveal().reveal('#five', {duration: 1000, distance: '100px', origin: 'bottom', });
+    ScrollReveal().reveal('#six', {duration: 1000, distance: '100px', origin: 'bottom', });
 });
