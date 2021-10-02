@@ -11947,7 +11947,7 @@ p {
     width: 100vw;
     display: -ms-grid;
     display: grid;
-    overflow-x: hidden;
+    overflow-x: clip;
   }
   .table-header-grid {
     display: none;
@@ -11955,6 +11955,7 @@ p {
     top: 0px;
     height: 100vh;
     z-index: 96;
+    overflow-x: clip;
   }
   .table-header-grid nav {
     -ms-flex-item-align: center;
@@ -12030,9 +12031,11 @@ p {
     background-image: url("https://dm2305files.storage.live.com/y4mEQWI48EcpAbPdixbaen1STeNwDAzOXJyIe6GTVC_KtGOlgh-rVXce7ky02ueKKbgBP7dTHUA1B6bnleu0Zs2fqMXceilcw8mHs3f0zX98jJgB42b9PvGpPxmdN8H42vCCO3b8wCys0Vi9iv3cjQ85JNEq-UAnU0nqBudm4oOFSdyKKQQh5RO73NBxGR-ZqS0?width=3199&height=2400&cropmode=none");
     width: 100vw;
     margin-top: 50px;
+    overflow-x: clip;
   }
   .tabletitle img {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
