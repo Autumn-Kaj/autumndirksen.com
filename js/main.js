@@ -18,7 +18,6 @@ ScrollReveal().reveal('.left-contact', {duration: 2000,distance:'500px', origin:
 ScrollReveal().reveal('.right-contact', {duration: 2000,distance:'500px', origin:'right'})
 
 /*123 Page*/
-ScrollReveal().reveal('#what-if-fade', {duration: 4000})
 ScrollReveal().reveal('#table-one', {duration: 2000})
 ScrollReveal().reveal('#table-two', {duration: 2000, delay:500})
 ScrollReveal().reveal('#table-three', {duration: 2000, delay:1000});
