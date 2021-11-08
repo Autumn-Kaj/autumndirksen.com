@@ -11211,7 +11211,7 @@ p {
   .about-me-flex {
     background-image: url("https://dm2305files.storage.live.com/y4mrQdf2LyoWVluOeVfMQzYYeNqcDzy3p8dnpHgNbakV9HzG4rDssC_meyc9dX_TmAh1jyqAFwIRMf0PjgeTTpH6LrlJFkjOrBKrHkrydBvr8He8s_FUAyOQ3bvxqilb1lTu0tP-QGcCndZwEjr8VT_Ho28qXruuQwpiRATJILq8a_8CLckQW_rd2Rhjd2_EXNK?width=1600&height=989&cropmode=none");
     background-size: cover;
-    background-position: bottom;
+    background-position: bottom right;
     height: 100vh;
     width: 100vw;
     display: -ms-grid;
