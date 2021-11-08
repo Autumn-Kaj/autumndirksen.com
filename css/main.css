@@ -11123,69 +11123,48 @@ p {
         align-self: center;
     width: 10vw;
   }
-  section .gallery-grid {
-    margin-top: 50px;
+  .index-grid {
     display: -ms-grid;
     display: grid;
-    grid-auto-flow: column;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     width: 100vw;
-    justify-items: stretch;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    overflow-x: hidden;
+    justify-items: center;
+    background-color: #F9F9FA;
   }
-  section .left img {
-    height: 40vh;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    padding: 0px;
-    margin-left: 0px;
-    z-index: 1;
-    margin-left: 0px;
-    margin-right: 0px;
-    overflow-x: hidden;
+  .index-grid a #gallery {
+    width: 90vw;
+    margin-bottom: 4vh;
+    margin-top: 8vh;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
   }
-  section .right {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    height: 20vh;
-    position: absolute;
-    top: 10vh;
-    bottom: 10vh;
-    opacity: 80%;
+  .index-grid a #gallery:hover {
+    -webkit-box-shadow: black 10px 10px 13px;
+            box-shadow: black 10px 10px 13px;
+    width: 91vw;
   }
-  section .right div {
-    background-color: white;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    padding: 30px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+  .index-grid a #about {
+    width: 90vw;
+    margin-top: 4vh;
+    margin-bottom: 8vh;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
   }
-  section .right div a {
-    text-decoration: none;
-  }
-  section .right div h3 {
-    text-align: center;
-  }
-  section .right div p {
-    text-align: center;
-  }
-  section .about-grid {
-    display: none;
+  .index-grid a #about:hover {
+    -webkit-box-shadow: black 10px 10px 13px;
+            box-shadow: black 10px 10px 13px;
+    width: 91vw;
   }
   footer .footer-grid {
     display: -ms-grid;
@@ -11202,7 +11181,6 @@ p {
     margin-right: 0px;
     -ms-grid-column-align: center;
         justify-self: center;
-    margin-top: 8vh;
   }
   footer .footer-grid div {
     -ms-grid-column-align: center;
@@ -11361,11 +11339,13 @@ p {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     width: 100vw;
-    height: 100vh;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     background-color: #f9f9fa;
   }
   .contact-grid img {
-    width: 95vw;
+    width: 100vw;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -11373,8 +11353,6 @@ p {
         justify-self: center;
     -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
             box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
   }
 }
 
@@ -11428,7 +11406,7 @@ p {
             justify-content: center;
     -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    margin: 0px;
+    margin-bottom: 40px;
     gap: 10px;
     overflow: hidden;
     margin-top: 40px;
@@ -15591,101 +15569,48 @@ p {
     cursor: pointer;
     width: 5vw;
   }
-  section .gallery-grid {
-    margin-top: 50px;
+  .index-grid {
     display: -ms-grid;
     display: grid;
-    grid-auto-flow: column;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     width: 100vw;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    justify-items: center;
     background-color: #F9F9FA;
   }
-  section .left img {
+  .index-grid a #gallery {
     width: 60vw;
-    -ms-flex-item-align: left;
-        -ms-grid-row-align: left;
-        align-self: left;
-    margin-left: 0px;
+    margin-bottom: 65px;
+    margin-top: 130px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
   }
-  section .right {
-    -ms-grid-column-align: center;
-        justify-self: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 30px;
+  .index-grid a #gallery:hover {
+    -webkit-box-shadow: black 10px 10px 13px;
+            box-shadow: black 10px 10px 13px;
+    width: 61vw;
   }
-  section .right div {
-    margin-right: 30px;
-    background-color: white;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    padding: 50px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+  .index-grid a #about {
+    width: 60vw;
+    margin-top: 65px;
+    margin-bottom: 130px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
   }
-  section .right div a {
-    text-decoration: none;
-  }
-  section .right div h3 {
-    text-align: center;
-  }
-  section .right div p {
-    text-align: center;
-  }
-  section .about-grid {
-    display: -ms-grid;
-    display: grid;
-    grid-auto-flow: column;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    width: 100vw;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: #F9F9FA;
-    margin-top: 50px;
-  }
-  section .about-grid .left {
-    margin: 0px;
-    min-width: 300px;
-    -ms-grid-column-align: center;
-        justify-self: center;
-  }
-  section .about-grid .left div {
-    margin-left: 30px;
-    background-color: white;
-    max-width: 220px;
-    max-height: 220px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    padding: 30px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-  }
-  section .about-grid .left div a {
-    text-decoration: none;
-  }
-  section .about-grid .left div h3 {
-    text-align: center;
-  }
-  section .about-grid .left div p {
-    text-align: center;
-  }
-  section .about-grid .right img {
-    width: 30vw;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    text-align: center;
-    padding-left: 30px;
+  .index-grid a #about:hover {
+    -webkit-box-shadow: black 10px 10px 13px;
+            box-shadow: black 10px 10px 13px;
+    width: 61vw;
   }
   footer .footer-grid {
     display: -ms-grid;
