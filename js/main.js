@@ -6,8 +6,8 @@ $(document).ready(function(){
 });
 /*Main Page*/
 ScrollReveal().reveal('#scroll-button', { duration: 3000, distance: '40px', origin: 'top', });
-ScrollReveal().reveal('.gallery-grid', { duration: 2000, distance: '200px', origin: 'left'});
-ScrollReveal().reveal('.about-grid', { duration: 2000, delay:500,distance: '200px', origin: 'right'});
+ScrollReveal().reveal('#gallery', { duration: 2000, distance: '200px', origin: 'left'});
+ScrollReveal().reveal('#about', { duration: 2000, delay:500,distance: '200px', origin: 'right'});
 
 /*About*/
 ScrollReveal().reveal('#slide-in', {duration: 2000, distance:'90px', origin:'right'})
