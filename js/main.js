@@ -17,7 +17,9 @@ ScrollReveal().reveal('#slide-in2', {duration: 2000, delay:500, distance:'90px',
 ScrollReveal().reveal('.left-contact', {duration: 2000,distance:'500px', origin:'left'})
 ScrollReveal().reveal('.right-contact', {duration: 2000,distance:'500px', origin:'right'})
 
-/*123 Page*/
-ScrollReveal().reveal('#table-one', {duration: 2000})
-ScrollReveal().reveal('#table-two', {duration: 2000, delay:500})
-ScrollReveal().reveal('#table-three', {duration: 2000, delay:1000});
+/*Product Pages*/
+ScrollReveal().reveal('.project-info-images', {duration: 1500, distance: '50px', origin:'bottom'})
+ScrollReveal().reveal('.tableproductsplash', {duration: 1500, distance: '150px', origin:'top'})
+ScrollReveal().reveal('.slateproductsplash', {duration: 1500, distance: '150px', origin:'top'})
+
+
