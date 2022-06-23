@@ -60,6 +60,11 @@ p{
 //////////Mobile Version/////////
 
 @media only screen and (max-width: 500px){
+    
+    .hide-xs{
+        display:none;
+    }
+
     .large-subhead{
         font-family:'Work Sans', sans-serif;
         color: $font_color_light;
@@ -328,9 +333,9 @@ p{
 @import "about";
 @import "contact";
 @import"gallery";
-@import"123";
+@import"projectpages";
 @import"canvas";
-@import"mus";
+@import"mus"; 
 @import"slate";
 @import"art";
 @import"experiencewa";
